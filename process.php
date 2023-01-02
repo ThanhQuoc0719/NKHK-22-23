@@ -65,8 +65,7 @@
         {
             $sql3 = "SELECT id_topic FROM topic WHERE theme='".$_POST['theme']."'";
             $kq = mysqli_query($connect, $sql3) or die(mysqli_error($connect));
-            $row=mysqli_fetch_array($kq);
-            if($row[0] != NULL)
+            if($row=mysqli_fetch_array($kq))
             {
                 insertDetail($row[0], $connect);
             }

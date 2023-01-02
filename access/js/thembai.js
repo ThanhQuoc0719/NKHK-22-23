@@ -54,7 +54,6 @@ function add()
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			text = this.responseText;
-            console.log(text);
             if(text == 1)
 				location.reload();
 			else

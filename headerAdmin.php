@@ -15,7 +15,7 @@
             <div class="user-menu">
                 <ul class="user-menu__list">
                     <li class="user-menu__item">
-                        <a href="/KTHT--KN-2022-2023/login.php" class="user-menu__link">Đăng xuất</a>
+                        <a href="login.php" class="user-menu__link">Đăng xuất</a>
                     </li>
                 </ul>
             </div>
@@ -25,5 +25,5 @@
 <?php
     }
     else
-        header('Location: /KTHT--KN-2022-2023/login.php');
+        header('Location: /NKHK-22-23/login.php');
 ?>

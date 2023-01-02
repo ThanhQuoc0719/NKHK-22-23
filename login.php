@@ -38,7 +38,7 @@
             {
                 session_start();
                 $_SESSION['user'] = $_POST['user'];
-                header('Location: /KTHT--KN-2022-2023/admin.php');
+                header('Location: /NKHK-22-23/admin.php');
                 // echo "<script type='text/javascript'>window.location='/index.php'</script>";
             }
         }
