@@ -102,6 +102,14 @@
                             <p class="detail__text">Người hướng dẫn:</p>
                         </div>
                     </div> -->
+                    <div class="grid__row grid__row__topic implementer">
+                        <div class="grid__column-2"><p>Học sinh thực hiện:</p></div>
+                        <div class="grid__column-9"><p>Hoàng Mỹ Duyên lớp 11A1_THPT Phan Bội Châu_ Đắk Lắk</p></div>
+                    </div>
+                    <div class="grid__row grid__row__topic instructor">
+                        <div class="grid__column-2"><p>Người hướng dẫn:</p></div>
+                        <div class="grid__column-9"><p>Hoàng Ánh Dương</p></div>
+                    </div>
                 </div>
             </div>
         </div>

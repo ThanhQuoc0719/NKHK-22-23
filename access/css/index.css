@@ -86,3 +86,8 @@ a{
     0% { left: 0; }
     100% { left: -100%; }
   }
+
+  .implementer, .instructor{
+    font-size: 20px;
+    margin-bottom: 0px;
+  }

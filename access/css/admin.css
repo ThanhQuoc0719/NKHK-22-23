@@ -149,7 +149,7 @@ outline: none;
     position: fixed;
     left: 0;
     top: 77px;
-    height: 100%;
+    bottom: 0;
     background-color: #1a1a1a;
     z-index: 100;
     overflow: scroll;
@@ -193,6 +193,14 @@ outline: none;
 
 .table-insert-topics tr, .table-update-topics tr, .table-watch tr{
     line-height: 38px;
+}
+
+.table-watch tr{
+    display: flex;
+}
+
+.width40{
+    width: 30%;
 }
 
 .table-insert-topics input, .table-update-topics input, .table-watch input{
