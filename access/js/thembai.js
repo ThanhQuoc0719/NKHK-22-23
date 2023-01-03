@@ -32,7 +32,8 @@ btnagree.addEventListener("click", function(){
     testinput();
     if(kt)
     {
-        add();
+        var t = content.value.replaceAll("\n","<br>");
+        add(t);
     }
 })
 
@@ -48,7 +49,7 @@ function testinput(){
     });
 }
 
-function add()
+function add(t)
 {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
@@ -65,8 +66,7 @@ function add()
 	};
 	xhttp.open("POST", "process.php", false);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    var t = content.value.replace("\n","<br>");
-	xhttp.send("U=insert&theme="+theme.value+"&postcode="+postcode.value+"&songtitle="+songtitle.value+"&instructor="+instructor.value+"&implementer="+implementer.value+"&content="+content.value);
+	xhttp.send("U=insert&theme="+theme.value+"&postcode="+postcode.value+"&songtitle="+songtitle.value+"&instructor="+instructor.value+"&implementer="+implementer.value+"&content='"+t+"'");
 }
 
 function close(item) {

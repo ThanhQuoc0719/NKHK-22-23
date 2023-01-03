@@ -171,7 +171,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
+                <td class="content-article" colspan="2">
                     <textarea id="watch_content" rows="4" cols="50" class="input_content-watch" disabled></textarea>
                 </td>
             </tr>

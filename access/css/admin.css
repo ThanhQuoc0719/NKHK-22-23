@@ -200,7 +200,11 @@ outline: none;
 }
 
 .width40{
-    width: 30%;
+    width: 20%;
+}
+
+.content-article, .content-article textarea{
+    width: 100%;
 }
 
 .table-insert-topics input, .table-update-topics input, .table-watch input{

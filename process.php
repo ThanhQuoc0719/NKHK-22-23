@@ -84,7 +84,7 @@
     function insertDetail($id_topic, $connect)
     {
         $today = date("Y-m-d");
-        $sql = "INSERT INTO detail_topic(id_article_title, article_title, article_content, date_submitted, name_student, name_teacher, id_topic) VALUES ('".$_POST['postcode']."','".$_POST['songtitle']."','".$_POST['content']."','".$today = date("Y-m-d")."','".$_POST['implementer']."','".$_POST['instructor']."','".$id_topic."')";
+        $sql = "INSERT INTO detail_topic(id_article_title, article_title, article_content, date_submitted, name_student, name_teacher, id_topic) VALUES ('".$_POST['postcode']."','".$_POST['songtitle']."',".$_POST['content'].",'".$today = date("Y-m-d")."','".$_POST['implementer']."','".$_POST['instructor']."','".$id_topic."')";
         $kq = mysqli_query($connect, $sql) or die(mysqli_error($connect));
     }
 
@@ -130,6 +130,6 @@
         $sql="SELECT article_content FROM detail_topic WHERE id_article_title='".$id."'";
         $kq = mysqli_query($connect, $sql);
         $row=mysqli_fetch_array($kq);
-        echo $row[0];
+        echo str_replace("<br>", "\n", $row[0]);
     }
 ?>
