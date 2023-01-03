@@ -65,7 +65,7 @@ function add()
 	};
 	xhttp.open("POST", "process.php", false);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    var t = content.value.replace("\n","<br>")
+    var t = content.value.replace("\n","<br>");
 	xhttp.send("U=insert&theme="+theme.value+"&postcode="+postcode.value+"&songtitle="+songtitle.value+"&instructor="+instructor.value+"&implementer="+implementer.value+"&content="+content.value);
 }
 
