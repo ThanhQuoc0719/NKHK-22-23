@@ -37,7 +37,7 @@
                         echo '<div class="article__title"><p>'.$row['article_title'].'</p></div>
                         <div class="content-article">
                             <div class="row-article">
-                                <div class="column-20">Đề tài</div>
+                                <div class="column-20">Chủ đề</div>
                                 <div>'.$row['theme'].'</div>
                             </div>
                             <div class="row-article">
