@@ -4,7 +4,7 @@
     {
 ?>
 <header class="header-content">
-    <div class="width56"></div>
+    <div class="width56"><a href="index.php"><i class="fa-solid fa-house btn-home"></i></a></div>
     <div class="cards-single">
         <span>Quản lí đề tài</span>
     </div>

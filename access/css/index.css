@@ -91,3 +91,13 @@ a{
     font-size: 20px;
     margin-bottom: 0px;
   }
+
+  .btn-admin{
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .btn-admin:hover{
+    color: red;
+  }

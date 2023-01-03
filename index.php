@@ -27,6 +27,9 @@
                     </div>
                 </div>
             </div>
+            <div class="container-admin">
+                <a href="admin.php"><button class="btn-admin">Quản lý</button></a>
+            </div>
             <div class="container__topic"> 
                 <div class="content__topic">
                     <?php
@@ -51,64 +54,13 @@
                             </div>';
                         }
                     ?>
-                    <!-- <div class="grid__row grid__row__topic">
-                        <div class="grid__column-3 topic"><a href="" class="link_topic">Krông Năng: Vùng đất và con người</a></div>
-                        <div class="grid__column-9 detail__topic">
-                            <a href="" class="post__topic grid__row">Bài 1: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 2: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                        </div>
-                    </div>
-                    <div class="grid__row grid__row__topic">
-                        <div class="grid__column-3 topic"><a href="" class="link_topic">Krông Năng trong cuộc kháng chiến chống mỹ cứu nước(1954 – 1975)</a></div>
-                        <div class="grid__column-9 detail__topic">
-                            <a href="" class="post__topic grid__row">Bài 1: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 2: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 3: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 4: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 5: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                        </div>
-                    </div>
-                    <div class="grid__row grid__row__topic">
-                        <div class="grid__column-3 topic"><a href="" class="link_topic">Krông Năng trong sự nghiệp xây dựng và bào vệ tổ quốc VN XHCN, thực hiện đường lối đổi mới (1975-2020)</a></div>
-                        <div class="grid__column-9 detail__topic">
-                            <a href="" class="post__topic grid__row">Bài 1: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 2: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 3: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 4: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 5: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 6: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 7: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 8: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 9: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 10: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                        </div>
-                    </div>
-                    <div class="grid__row grid__row__topic">
-                        <div class="grid__column-3 topic"><a href="" class="link_topic">BCH Đảng Bộ huyện Krông Năng qua các thời kỳ</a></div>
-                        <div class="grid__column-9 detail__topic">
-                            <a href="" class="post__topic grid__row">Bài 1: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 2: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 3: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 4: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 5: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 6: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 7: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                            <a href="" class="post__topic grid__row">Bài 8: Nga giải phóng thị trấn chiến lược, bao vây thành trì của Ukraine ở Donetsk</a>
-                        </div>
-                    </div>
-                    <div class="grid__row grid__row__topic">
-                        <div class="author">
-                            <p class="detail__text">Học sinh thực hiện:</p>
-                            <p class="detail__text">Người hướng dẫn:</p>
-                        </div>
-                    </div> -->
                     <div class="grid__row grid__row__topic implementer">
                         <div class="grid__column-2"><p>Học sinh thực hiện:</p></div>
-                        <div class="grid__column-9"><p>Hoàng Mỹ Duyên lớp 11A1_THPT Phan Bội Châu_ Đắk Lắk</p></div>
+                        <div class="grid__column-9"><p>Hoàng Ánh Dương và Hoàng Mỹ Duyên lớp 11A1_THPT Phan Bội Châu_ Đắk Lắk</p></div>
                     </div>
                     <div class="grid__row grid__row__topic instructor">
                         <div class="grid__column-2"><p>Người hướng dẫn:</p></div>
-                        <div class="grid__column-9"><p>Hoàng Ánh Dương</p></div>
+                        <div class="grid__column-9"><p>Hoàng Oanh</p></div>
                     </div>
                 </div>
             </div>

@@ -457,3 +457,12 @@ outline: none;
 .container-topics li:hover .container-delete-topic{
     display: flex;
 }
+
+.btn-home{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.btn-home:hover{
+    color: #c49f6d;
+}
